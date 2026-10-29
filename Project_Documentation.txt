@@ -1,0 +1,79 @@
+# PROJECT DOCUMENTATION
+
+## Project Title
+Student Performance Analytics System
+
+## 1. Introduction
+The Student Performance Analytics System is a Python-based project used to analyze student academic performance. It reads student data from a CSV file and displays useful information about students.
+
+## 2. Objectives
+- To store student information in a CSV dataset.
+- To calculate average marks of students.
+- To assign Pass or Fail results.
+- To identify the class topper.
+- To calculate dataset statistics.
+- To generate a student analysis report.
+
+## 3. Technologies Used
+- Python
+- Pandas
+- NumPy
+- CSV Dataset
+- Visual Studio Code
+
+## 4. Project Files
+1. main.py – Executes the main program.
+2. functions.py – Contains functions for average calculation, result assignment, and topper detection.
+3. students.csv – Stores student information and marks.
+4. student_analysis_report.csv – Stores the generated analysis report.
+5. README.md – Contains project information and instructions.
+
+## 5. Working of the Project
+1. The program reads student data from students.csv.
+2. It checks whether the required columns are available.
+3. It calculates the average marks of each student.
+4. It assigns Pass or Fail results.
+5. It displays student data and dataset statistics.
+6. It identifies the class topper.
+7. It saves the final report in a CSV file.
+
+## 6. Results
+- Total Students: 20
+- Total Subjects: 3
+- Class Topper: Meena
+- Topper Average Marks: 95.33
+- Students Passed: 20
+
+## 7. Conclusion
+The Student Performance Analytics System demonstrates how Python, Pandas, and NumPy can be used to analyze student data. It calculates average marks, identifies the topper, summarizes results, and generates a report automatically.
+
+## 8. Dataset Description
+The dataset contains 20 student records. Each record includes Student ID, Name, Department, marks in Python, Math and English, and Attendance.
+
+## 9. Key Features
+- Reads student data from a CSV file using Pandas.
+- Calculates total and average marks.
+- Assigns grades based on average marks.
+- Determines Pass or Fail based on subject marks.
+- Displays dataset statistics.
+- Identifies the class topper.
+- Displays the Pass/Fail summary.
+- Generates a CSV analysis report.
+
+## 10. Output
+The program displays student records, total students, subject statistics, the class topper, and the Pass/Fail summary. The generated report is saved as `student_analysis_report.csv`.
+
+## 11. Challenges and Learning
+During this project, I learned how to read CSV files, work with Pandas DataFrames, calculate averages, create reusable functions, assign grades, and generate reports using Python.
+
+## 12. Student Details
+- Student Name: Raj Verma
+- Branch: Information Technology (IT)
+- Semester: V Semester
+- Project Title: Student Performance Analytics System
+
+## 13. GitHub Repository
+GitHub Repository URL: To be added after uploading the project.
+
+## 14. Conclusion
+This project demonstrates the use of Python, Pandas, and NumPy for student performance analysis. It helps summarize academic results and generate a report automatically.
